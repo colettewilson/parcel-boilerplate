@@ -1,0 +1,44 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./assets/js/index.js",
+  "scripts": {
+    "start": "parcel ./public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colettewilson/parcel-boilerplate.git"
+  },
+  "keywords": [
+    "parcel",
+    "react"
+  ],
+  "author": "Colette Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colettewilson/parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/colettewilson/parcel-boilerplate#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "normalize.css": "^8.0.0",
+    "parcel-bundler": "^1.9.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.0.1",
+    "node-sass": "^4.9.2",
+    "node-sass-glob-importer": "^5.2.0",
+    "sass-glob-importer": "^1.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "Firefox ESR",
+    "Explorer >= 10",
+    "Safari >= 8"
+  ]
+}

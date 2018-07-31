@@ -1,0 +1,25 @@
+html {
+  // background-color: ;
+  color: red;
+}
+
+body {
+  // color: ;
+  // -webkit-tap-highlight-color: ;
+
+  &::selection {
+    // color: ;
+    // background-color: ;
+  }
+}
+
+button,
+select,
+input,
+textarea {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
